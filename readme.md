@@ -25,13 +25,13 @@ python -m venv venv
 2️⃣ Activarlo (Windows)
 . ./.venv/Scripts/activate
 
- 3️⃣ Activarlo (Mac / Linux)
+3️⃣.2️⃣  Activarlo (Mac / Linux)
 source venv/bin/activate
 
-3️⃣ clonar el repositortio
-git clone 
+ 4️⃣ clonar el repositortio
+git clone https://github.com/code-ALX79/Musica-en-la-Gran-Ciudad.git
 
-4️⃣ Instalar las dependencias
+5️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
 ```
