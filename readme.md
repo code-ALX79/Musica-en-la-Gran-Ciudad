@@ -7,6 +7,26 @@
 **Tipo de proyecto:** Exploración y análisis de datos (EDA)
 **Nivel:** Analista de Datos Jr. — Intermedio
 
+⚙️ # Configuración del entorno:
+
+Para garantizar la correcta ejecución del proyecto, se recomienda crear un entorno virtual y usar las dependencias listadas en requirements.txt.
+
+``` sh
+# 1️⃣ Crear el entorno virtual
+python -m venv venv
+
+# 2️⃣ Activarlo (Windows)
+. ./.venv/Scripts/activate
+
+# 3️⃣ Activarlo (Mac / Linux)
+source venv/bin/activate
+
+# 4️⃣ Instalar las dependencias
+pip install -r requirements.txt
+
+```
+
+
 🧩 ##  Descripción general
 
 Este proyecto analiza los *hábitos musicales en dos ciudades ficticias: Springfield y Shelbyville*, con el objetivo *de comparar la actividad de los usuarios, sus preferencias de género y los momentos del día en que más escuchan música.*
@@ -30,12 +50,17 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 ⚙️ Estructura del proyecto:
 
 ``` sh 
-Musica-en-la-Gran-Ciudad/
+    Musica-en-la-Gran-Ciudad/
 │
-├── Proyecto   
-├── music_project_en.csv                                       
-├── nucleos_del_CPU.py                                         
-└── README.md  
+├── data/
+│   └── music_project_en.csv
+│
+├── scripts/
+│   ├── musica_en_la_gran_ciudad.py
+│   └── nucleos_del_CPU.py
+│
+└── README.md
+
 
 ```
                                                 # Documentación del proyecto
