@@ -2,7 +2,7 @@
 
 📊 **Proyecto de Analítica de Datos.**
 
-**Autor:** Alexander Herrera
+**Autor:** Edwin Herrera
 
 **Lenguaje:** Python
 
