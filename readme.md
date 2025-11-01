@@ -28,6 +28,9 @@ python -m venv venv
  3️⃣ Activarlo (Mac / Linux)
 source venv/bin/activate
 
+3️⃣ clonar el repositortio
+git clone 
+
 4️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
