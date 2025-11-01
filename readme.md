@@ -3,10 +3,16 @@
 📊 **Proyecto de Analítica de Datos.**
 
 **Autor:** Edwin Herrera
+
 **Lenguaje:** Python
+
 **Librerías utilizadas:** pandas, numpy, os
+
 **Tipo de proyecto:** Exploración y análisis de datos (EDA)
+
 **Nivel:** Analista de Datos Jr. — Intermedio
+
+
 
 ⚙️**Configuración del entorno:**
 
