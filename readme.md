@@ -1,5 +1,6 @@
-🎵 # Música en la Gran Ciudad
-📊 ## Proyecto de Analítica de Datos
+🎵 **Música en la Gran Ciudad.**
+
+📊 **Proyecto de Analítica de Datos.**
 
 **Autor:** Edwin Herrera
 **Lenguaje:** Python
@@ -7,27 +8,27 @@
 **Tipo de proyecto:** Exploración y análisis de datos (EDA)
 **Nivel:** Analista de Datos Jr. — Intermedio
 
-⚙️ # Configuración del entorno:
+⚙️Configuración del entorno:
 
 Para garantizar la correcta ejecución del proyecto, se recomienda crear un entorno virtual y usar las dependencias listadas en requirements.txt.
 
 ``` sh
-# 1️⃣ Crear el entorno virtual
+1️⃣ Crear el entorno virtual
 python -m venv venv
 
-# 2️⃣ Activarlo (Windows)
+2️⃣ Activarlo (Windows)
 . ./.venv/Scripts/activate
 
-# 3️⃣ Activarlo (Mac / Linux)
+ 3️⃣ Activarlo (Mac / Linux)
 source venv/bin/activate
 
-# 4️⃣ Instalar las dependencias
+4️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
 ```
 
 
-🧩 ##  Descripción general
+🧩 Descripción general
 
 Este proyecto analiza los *hábitos musicales en dos ciudades ficticias: Springfield y Shelbyville*, con el objetivo *de comparar la actividad de los usuarios, sus preferencias de género y los momentos del día en que más escuchan música.*
 
@@ -35,7 +36,7 @@ El propósito principal es *practicar y demostrar dominio en la limpieza, explor
 
 Como parte complementaria, se incluye un *archivo adicional de verificación de núcleos del CPU*, que evalúa los recursos del equipo desde el cual se ejecuta el notebook, como una curiosidad técnica relacionada con la *optimización y desempeño computacional durante la ejecución del análisis.*
 
-🧠 ## Objetivos
+🧠 Objetivos
 
 -1. *Analizar patrones de comportamiento musical* según ciudad y día de la semana.
 
@@ -66,7 +67,7 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
                                                 # Documentación del proyecto
 🧹 Etapas del análisis
 
-1️⃣ ### Carga y exploración inicial
+1️⃣  Carga y exploración inicial
 
 **-Lectura del dataset con**  ``` py pandas.read_csv() ``` 
 
@@ -83,7 +84,7 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 **-Corrección de duplicados implícitos** ``` py ('hip-hop', 'hip', 'hop' → 'hiphop') ``` 
 
-3️⃣ ### Análisis comparativo
+3️⃣  Análisis comparativo
 
 **-Conteo de reproducciones por ciudad y día**
 
@@ -101,7 +102,7 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 **-Las diferencias musicales entre ciudades son mínimas.**
 
-4️⃣ ### Resultados y conclusiones
+4️⃣ Resultados y conclusiones
 
 **-Springfield presenta mayor actividad musical los lunes y viernes.**
 
@@ -111,7 +112,7 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 **-Las diferencias musicales entre ciudades son mínimas.**
 
-🧪 ###  Cómo ejecutar el proyecto
+🧪  Cómo ejecutar el proyecto
 📘 Opción 1: Desde el Notebook:
 
 **1. Abre el archivo musica_en_la_gran_ciudad.ipynb en Jupyter Notebook, Colab o VSCode.**
@@ -120,13 +121,13 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 **3. Visualiza las conclusiones directamente en el notebook.**
 
-🐍 ### Opción 2: Desde consola (versión .py)
+🐍 Opción 2: Desde consola (versión .py)
 
 ``` sh
  python musica_en_la_gran_ciudad.py
  
  ``` 
-⚙️ ### Opción 3: Verificar los recursos del sistema
+⚙️ Opción 3: Verificar los recursos del sistema
 
 **Para ejecutar el script de núcleos del CPU:**
 
@@ -136,7 +137,7 @@ python nucleos_del_CPU.py
 ```
 Este archivo imprime información sobre los núcleos disponibles, útil para comprender la capacidad del sistema al procesar datasets más grandes.
 
-📈 ## Habilidades demostradas:
+📈  Habilidades demostradas:
 
 **1. -Limpieza y normalización de datos con pandas.**
 
@@ -150,7 +151,7 @@ Este archivo imprime información sobre los núcleos disponibles, útil para com
 
 **6. -Comprensión del entorno técnico (CPU, optimización básica).**
 
-💬 ## Conclusión general:
+💬 Conclusión general:
 
 Este proyecto combina el análisis exploratorio con la práctica del pensamiento crítico.
 A través de un dataset musical, se demostraron técnicas sólidas de preprocesamiento y análisis, generando conclusiones interpretables y reproducibles.
