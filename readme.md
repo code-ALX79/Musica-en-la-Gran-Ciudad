@@ -8,7 +8,7 @@
 **Tipo de proyecto:** Exploración y análisis de datos (EDA)
 **Nivel:** Analista de Datos Jr. — Intermedio
 
-⚙️Configuración del entorno:
+⚙️**Configuración del entorno:**
 
 Para garantizar la correcta ejecución del proyecto, se recomienda crear un entorno virtual y usar las dependencias listadas en requirements.txt.
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 
-🧩 Descripción general
+🧩 **Descripción general**
 
 Este proyecto analiza los *hábitos musicales en dos ciudades ficticias: Springfield y Shelbyville*, con el objetivo *de comparar la actividad de los usuarios, sus preferencias de género y los momentos del día en que más escuchan música.*
 
@@ -36,7 +36,7 @@ El propósito principal es *practicar y demostrar dominio en la limpieza, explor
 
 Como parte complementaria, se incluye un *archivo adicional de verificación de núcleos del CPU*, que evalúa los recursos del equipo desde el cual se ejecuta el notebook, como una curiosidad técnica relacionada con la *optimización y desempeño computacional durante la ejecución del análisis.*
 
-🧠 Objetivos
+🧠 **Objetivos**
 
 -1. *Analizar patrones de comportamiento musical* según ciudad y día de la semana.
 
@@ -48,7 +48,7 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 -5. *Monitorear el entorno de ejecución*, verificando el rendimiento de CPU mediante el archivo complementario.
 
-⚙️ Estructura del proyecto:
+⚙️ **Estructura del proyecto:**
 
 ``` sh 
     Musica-en-la-Gran-Ciudad/
@@ -64,70 +64,60 @@ Como parte complementaria, se incluye un *archivo adicional de verificación de 
 
 
 ```
-                                                # Documentación del proyecto
-🧹 Etapas del análisis
+🧹 **Etapas del análisis:**
 
 1️⃣  Carga y exploración inicial
 
-**-Lectura del dataset con**  ``` py pandas.read_csv() ``` 
+*1-Lectura del dataset con* ``` pandas.read_csv() ``` 
 
-**-Inspección general** ``` py (.info(), .describe(), .head())```
+*2-Inspección general* ``` (.info(), .describe(), .head())```
 
 
-2️⃣ ### Limpieza y preparación
+2️⃣ **Limpieza y preparación:**
 
-**-Estandarización de nombres de columnas** ``` py (snake_case) ``` p
+*1-Estandarización de nombres de columnas.* ``` (snake_case) ``` 
 
-**-Reemplazo de valores nulos con** ``` py 'unknown' ``` 
+*2-Reemplazo de valores nulos con.* ``` 'unknown' ``` 
 
-**-Eliminación de duplicados**
+*3-Eliminación de duplicados.*
 
-**-Corrección de duplicados implícitos** ``` py ('hip-hop', 'hip', 'hop' → 'hiphop') ``` 
+*4-Corrección de duplicados implícitos.* ``` ('hip-hop', 'hip', 'hop' → 'hiphop') ``` 
 
-3️⃣  Análisis comparativo
+3️⃣ **Análisis comparativo:**
 
-**-Conteo de reproducciones por ciudad y día**
+*1-Conteo de reproducciones por ciudad y día.*
 
-**-Análisis de los géneros más escuchados por hora y día**
+*2-Análisis de los géneros más escuchados por hora y día*
 
-**-Validación de hipótesis sobre patrones de comportamiento**
+*3-Validación de hipótesis sobre patrones de comportamiento.*
 
-4️⃣ ### Resultados y conclusiones
+4️⃣ **Resultados y conclusiones:**
 
-**-Springfield presenta mayor actividad musical los lunes y viernes.**
+*1-Springfield presenta mayor actividad musical los lunes y viernes.*
 
-**-Shelbyville muestra mayor actividad los miércoles.**
+*2-Shelbyville muestra mayor actividad los miércoles.*
 
-**-En ambas ciudades predomina el género Pop.**
+*3-En ambas ciudades predomina el género Pop.*
 
-**-Las diferencias musicales entre ciudades son mínimas.**
+*4-Las diferencias musicales entre ciudades son mínimas.**
 
-4️⃣ Resultados y conclusiones
+🧪 **Cómo ejecutar el proyecto**
 
-**-Springfield presenta mayor actividad musical los lunes y viernes.**
+📘 **Opción 1: Desde el Notebook:**
 
-**-Shelbyville muestra mayor actividad los miércoles.**
+*1. Abre el archivo musica_en_la_gran_ciudad.ipynb en Jupyter Notebook, Colab o VSCode.*
 
-**-En ambas ciudades predomina el género Pop.**
+*2. Ejecuta las celdas en orden.*
 
-**-Las diferencias musicales entre ciudades son mínimas.**
+*3. Visualiza las conclusiones directamente en el notebook.*
 
-🧪  Cómo ejecutar el proyecto
-📘 Opción 1: Desde el Notebook:
-
-**1. Abre el archivo musica_en_la_gran_ciudad.ipynb en Jupyter Notebook, Colab o VSCode.**
-
-**2. Ejecuta las celdas en orden.**
-
-**3. Visualiza las conclusiones directamente en el notebook.**
-
-🐍 Opción 2: Desde consola (versión .py)
+🐍 **Opción 2: Desde consola (versión .py)**
 
 ``` sh
  python musica_en_la_gran_ciudad.py
  
  ``` 
-⚙️ Opción 3: Verificar los recursos del sistema
+⚙️ **Opción 3: Verificar los recursos del sistema**
 
 **Para ejecutar el script de núcleos del CPU:**
 
@@ -137,21 +127,21 @@ python nucleos_del_CPU.py
 ```
 Este archivo imprime información sobre los núcleos disponibles, útil para comprender la capacidad del sistema al procesar datasets más grandes.
 
-📈  Habilidades demostradas:
+📈 **Habilidades demostradas:**
 
-**1. -Limpieza y normalización de datos con pandas.**
+*1. -Limpieza y normalización de datos con pandas.*
 
-**2. -Agrupaciones y filtrado condicional.**
+*2. -Agrupaciones y filtrado condicional.*
 
-**3. -Creación de funciones analíticas personalizadas.**
+*3. -Creación de funciones analíticas personalizadas.*
 
-**4. -Manejo de valores nulos y duplicados.**
+*4. -Manejo de valores nulos y duplicados.*
 
-**5. -Validación de hipótesis mediante análisis exploratorio.**
+*5. -Validación de hipótesis mediante análisis exploratorio.*
 
-**6. -Comprensión del entorno técnico (CPU, optimización básica).**
+*6. -Comprensión del entorno técnico (CPU, optimización básica).*
 
-💬 Conclusión general:
+💬 **Conclusión general:**
 
 Este proyecto combina el análisis exploratorio con la práctica del pensamiento crítico.
 A través de un dataset musical, se demostraron técnicas sólidas de preprocesamiento y análisis, generando conclusiones interpretables y reproducibles.
