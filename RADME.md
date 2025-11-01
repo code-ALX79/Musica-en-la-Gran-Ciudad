@@ -1,0 +1,133 @@
+🎵 # Música en la Gran Ciudad
+📊 ## Proyecto de Analítica de Datos
+
+**Autor:** Edwin Herrera
+**Lenguaje:** Python
+**Librerías utilizadas:** pandas, numpy, os
+**Tipo de proyecto:** Exploración y análisis de datos (EDA)
+**Nivel:** Analista de Datos Jr. — Intermedio
+
+🧩 ##  Descripción general
+
+Este proyecto analiza los *hábitos musicales en dos ciudades ficticias: Springfield y Shelbyville*, con el objetivo *de comparar la actividad de los usuarios, sus preferencias de género y los momentos del día en que más escuchan música.*
+
+El propósito principal es *practicar y demostrar dominio en la limpieza, exploración y análisis de datos reales usando Python*, empleando buenas prácticas de estilo y lógica de programación.
+
+Como parte complementaria, se incluye un *archivo adicional de verificación de núcleos del CPU*, que evalúa los recursos del equipo desde el cual se ejecuta el notebook, como una curiosidad técnica relacionada con la *optimización y desempeño computacional durante la ejecución del análisis.*
+
+🧠 ## Objetivos
+
+-1. *Analizar patrones de comportamiento musical* según ciudad y día de la semana.
+
+-2. *Identificar géneros más escuchados* en diferentes horarios y ciudades.
+
+-3. *Comprobar hipótesis* sobre diferencias en gustos musicales entre Springfield y Shelbyville.
+
+-4. *Aplicar técnicas de limpieza de datos profesionales* (detección y corrección de duplicados, valores nulos, normalización de texto).
+
+-5. *Monitorear el entorno de ejecución*, verificando el rendimiento de CPU mediante el archivo complementario.
+
+⚙️ Estructura del proyecto:
+
+``` sh 
+Musica-en-la-Gran-Ciudad/
+│
+├── Proyecto   
+├── music_project_en.csv                                       
+├── nucleos_del_CPU.py                                         
+└── README.md  
+
+```
+                                                # Documentación del proyecto
+🧹 Etapas del análisis
+
+1️⃣ ### Carga y exploración inicial
+
+**-Lectura del dataset con**  ``` py pandas.read_csv() ``` 
+
+**-Inspección general** ``` py (.info(), .describe(), .head())```
+
+
+2️⃣ ### Limpieza y preparación
+
+**-Estandarización de nombres de columnas** ``` py (snake_case) ``` p
+
+**-Reemplazo de valores nulos con** ``` py 'unknown' ``` 
+
+**-Eliminación de duplicados**
+
+**-Corrección de duplicados implícitos** ``` py ('hip-hop', 'hip', 'hop' → 'hiphop') ``` 
+
+3️⃣ ### Análisis comparativo
+
+**-Conteo de reproducciones por ciudad y día**
+
+**-Análisis de los géneros más escuchados por hora y día**
+
+**-Validación de hipótesis sobre patrones de comportamiento**
+
+4️⃣ ### Resultados y conclusiones
+
+**-Springfield presenta mayor actividad musical los lunes y viernes.**
+
+**-Shelbyville muestra mayor actividad los miércoles.**
+
+**-En ambas ciudades predomina el género Pop.**
+
+**-Las diferencias musicales entre ciudades son mínimas.**
+
+4️⃣ ### Resultados y conclusiones
+
+**-Springfield presenta mayor actividad musical los lunes y viernes.**
+
+**-Shelbyville muestra mayor actividad los miércoles.**
+
+**-En ambas ciudades predomina el género Pop.**
+
+**-Las diferencias musicales entre ciudades son mínimas.**
+
+🧪 ###  Cómo ejecutar el proyecto
+📘 Opción 1: Desde el Notebook:
+
+**1. Abre el archivo musica_en_la_gran_ciudad.ipynb en Jupyter Notebook, Colab o VSCode.**
+
+**2. Ejecuta las celdas en orden.**
+
+**3. Visualiza las conclusiones directamente en el notebook.**
+
+🐍 ### Opción 2: Desde consola (versión .py)
+
+``` sh
+ python musica_en_la_gran_ciudad.py
+ 
+ ``` 
+⚙️ ### Opción 3: Verificar los recursos del sistema
+
+**Para ejecutar el script de núcleos del CPU:**
+
+``` sh 
+python nucleos_del_CPU.py
+
+```
+Este archivo imprime información sobre los núcleos disponibles, útil para comprender la capacidad del sistema al procesar datasets más grandes.
+
+📈 ## Habilidades demostradas:
+
+**1. -Limpieza y normalización de datos con pandas.**
+
+**2. -Agrupaciones y filtrado condicional.**
+
+**3. -Creación de funciones analíticas personalizadas.**
+
+**4. -Manejo de valores nulos y duplicados.**
+
+**5. -Validación de hipótesis mediante análisis exploratorio.**
+
+**6. -Comprensión del entorno técnico (CPU, optimización básica).**
+
+💬 ## Conclusión general:
+
+Este proyecto combina el análisis exploratorio con la práctica del pensamiento crítico.
+A través de un dataset musical, se demostraron técnicas sólidas de preprocesamiento y análisis, generando conclusiones interpretables y reproducibles.
+
+Además, el análisis del CPU introduce un enfoque curioso y profesional sobre cómo el entorno de ejecución puede influir en la eficiencia de un proyecto de datos.
